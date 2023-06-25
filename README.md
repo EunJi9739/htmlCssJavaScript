@@ -163,3 +163,87 @@
     text-decoration : underline;
 
 }
+```
+***
+* typeof
+* 데이터 타입
+    - Number
+    - String
+    - Boolean
+    - underfined
+
+* 주로 쓰이는 String 메서드
+    - length
+    - startWith
+    - endWith
+    - indexOf
+    - repeat
+    - replace
+    - split
+    - toUpperCase
+    - toLowerCase
+
+* 타입캐스팅
+    - String
+    - Number
+    - Boolean
+
+* 인덱싱
+    ``` 
+    > "abcde"[2]
+    "c"
+    ```
+* 슬라이싱
+    ```
+    > "abcdefgh".slice(3,5)
+    de
+    ```
+
+* 변수
+    - let
+    - const
+
+* 비교 연산자
+    - ===
+    - !==
+    - <
+    - \>
+    - \>=
+    - <=
+
+* 배열
+    ```
+    > let a = [1, 2, 3, 4]
+    > a
+    (4) [1, 2, 3, 4]
+    ```
+* 객체 만들기
+    ```
+    > let id = {
+        name : "은지",
+        age : 27,
+        books : "업무 자동화",
+        job : "Engineer"
+    }
+    ```
+* 이벤트 리스너
+    ```
+    요소.addEventListner(이벤트, 
+        function(e){
+            실행할 내용
+        }
+    )
+    ```
+
+* 자주 쓰이는 이벤트들
+    |이벤트명|인라인 호출 시|발생 시점|
+    |-------|-------------|----------|
+    |keydown|onKeydown|키가 눌렸을 때|
+    |click|onClick|요소가 클릭되었을 때|
+    |doubleclick|onDoubleclick|요소가 더블 클릭되었을 때|
+    |mouseover|onMouseover|요소 위에 마우스 포인터가 올라왔을 때|
+    |mouseleave|onMouseleave|요소로부터 마우스 포인터가 벗어났을 때|
+    |change|onChange|요소의 값이 변경될 때|
+    |input|onInput|사용자가 요소에 값을 입력할 때|
+    |submit|onSubmit|form 요소의 제출 버튼이 클릭되었을 때|
+    |reset|onReset|form 요소의 리셋 버튼이 클릭되었을 때|

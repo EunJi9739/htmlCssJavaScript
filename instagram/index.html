@@ -4,6 +4,7 @@
         <link href="style.css" rel="stylesheet">
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     </head>
+    <script src="script.js"></script>
     <body>
         <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
@@ -21,19 +22,22 @@
                 <img class="circle_pic" src="images/profile.png"/>
             </div>  
             <div id="profile_info">
-                <div id="id">silverg97<i class="fas fa-cog"></i></div>
+                <div id="id">
+                    <span>silverg97</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
 
         <div>
             <p>
-                <strong>
+                <strong id="userInfo">
                     황은지 (EunJi Hwang)
                 </strong></br>
-                개발자
+                <span id="summary">개발자</span>
             </p>
-            <p>
+            <p id="profileDetail">
                 <a href="https://github.com/EunJi9739">
                     github.com/EunJi9739
                 </a>
